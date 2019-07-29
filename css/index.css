@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'Butterfly Kids', cursive;
   color: #23293B;
 }
 h1 {
@@ -171,10 +171,11 @@ header {
   align-items: center;
   border: 1px double #F1F1F1;
   background-color: #F6F6F6;
-  opacity: 0.9;
   margin: auto;
   padding: 15px;
-  position: fixed;
+}
+header img .logo {
+  padding: 2%;
 }
 header nav {
   width: 100%;
@@ -184,22 +185,36 @@ header nav {
   align-content: bottom;
 }
 header nav a {
-  font-size: 1.7rem;
+  font-size: 3rem;
   text-decoration: none;
   color: #454A59;
-  padding: 2% 2%;
+  padding: 1% 2%;
 }
 header nav a:hover {
   color: #072375;
   font-weight: bold;
 }
 footer {
+  width: 100%;
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
-  border: 1px double #e0e0e0;
-  border-radius: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  font-size: 1.5rem;
+}
+footer nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a {
+  text-decoration: none;
+  color: #454A59;
+  padding: 1% 2%;
+}
+footer a:hover {
+  color: #072375;
+  font-weight: bold;
 }
