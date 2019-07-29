@@ -218,3 +218,39 @@ footer a:hover {
   color: #072375;
   font-weight: bold;
 }
+.cta {
+  width: 90%;
+  margin: auto;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cta h1 {
+  font-size: 7rem;
+  margin-bottom: 3%;
+}
+.cta h2 {
+  font-size: 4rem;
+  margin-bottom: 5%;
+}
+.cta button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  margin: auto;
+  width: 30%;
+  height: 12%;
+  font-size: 3rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Butterfly Kids', cursive;
+}
+.cta button:hover {
+  background-color: #FFFFFF;
+  color: #22283A;
+}
