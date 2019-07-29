@@ -1,10 +1,11 @@
 .intro{
-  width: 60%;
+  width: 90%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid grey;
 
   h1{
     font-size: 7rem;
@@ -24,6 +25,10 @@
   border-bottom: 2px solid grey;
   padding: 2%;
 
+  @media @phone{
+    flex-direction: column;
+  }
+
   .text{
     width: 48%;
     display: flex;
@@ -35,6 +40,10 @@
     h2{
       font-size: 5rem;
       padding: 2%;
+    }
+
+    @media @phone{
+      width: 100%;
     }
   }
 
@@ -54,6 +63,10 @@
   border-bottom: 2px solid grey;
   padding: 2%;
 
+  @media @phone{
+    flex-direction: column;
+  }
+
 
   .text{
     width: 48%;
@@ -66,6 +79,10 @@
     h2{
       font-size: 5rem;
       padding: 2%;
+    }
+
+    @media @phone{
+      width: 100%;
     }
   }
 

@@ -9,6 +9,10 @@
   display: flex;
   margin: 3%;
 
+  @media @phone{
+    flex-direction: column;
+  }
+
   .text{
     border: 2px solid blue;
     width: 50%;
@@ -16,10 +20,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media @phone{
+      width: 100%;
+    }
   }
 
   button{
     .custom-button();
+
+    @media @phone{
+      width: 100%;
+    }
   }
 
   img{
@@ -29,6 +41,10 @@
     border: 2px solid blue;
     justify-self: center;
     align-self: center;
+
+    @media @phone{
+      width: 100%;
+    }
   }
 }
 
@@ -37,6 +53,10 @@
   flex-direction: row-reverse;
   margin: 3%;
 
+  @media @phone{
+    flex-direction: column;
+  }
+
   .text{
     border: 2px solid blue;
     width: 50%;
@@ -44,6 +64,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media @phone{
+      width: 100%;
+    }
   }
 
   button{
@@ -57,6 +81,10 @@
     border: 2px solid blue;
     justify-self: center;
     align-self: center;
+
+    @media @phone{
+      width: 100%;
+    }
   } 
 }
 
@@ -64,6 +92,10 @@
   display: flex;
   margin: 3%;
 
+  @media @phone{
+    flex-direction: column;
+  }
+
   .text{
     border: 2px solid blue;
     width: 50%;
@@ -71,6 +103,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    @media @phone{
+      width: 100%;
+    }
   }
 
   button{
@@ -84,5 +120,9 @@
     border: 2px solid blue;
     justify-self: center;
     align-self: center;
+
+    @media @phone{
+      width: 100%;
+    }
   } 
 }

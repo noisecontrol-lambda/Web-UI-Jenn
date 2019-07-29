@@ -20,6 +20,11 @@
 
   button{
     .custom-button();
+
+    @media @phone{
+      width: 80%;
+      padding: 5%;
+    }
   }
   
 }
@@ -41,10 +46,21 @@
     justify-content: space-between;
     width: 100%;
 
+    @media @phone{
+      flex-direction: column;
+      justify-items: space-between;
+      align-items: center;
+    }
+
     div{
       border: 2px solid green;
       width: 30%;
       padding: 3%;
+
+      @media @phone{
+        width: 100%;
+        margin: 2%;
+      }
     }
 
   }
