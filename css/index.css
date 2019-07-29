@@ -243,7 +243,7 @@ footer a:hover {
   background-color: #22283A;
   margin: auto;
   width: 30%;
-  height: 12%;
+  height: auto;
   font-size: 3rem;
   border-radius: 10px;
   color: #FFFFFF;
@@ -274,4 +274,125 @@ footer a:hover {
   border: 2px solid green;
   width: 30%;
   padding: 3%;
+}
+.mainContent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.topContent {
+  display: flex;
+  margin: 3%;
+}
+.topContent .text {
+  border: 2px solid blue;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.topContent button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  margin: auto;
+  width: 30%;
+  height: auto;
+  font-size: 3rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Butterfly Kids', cursive;
+}
+.topContent button:hover {
+  background-color: #FFFFFF;
+  color: #22283A;
+}
+.topContent img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border: 2px solid blue;
+  justify-self: center;
+  align-self: center;
+}
+.howItWorks {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3%;
+}
+.howItWorks .text {
+  border: 2px solid blue;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.howItWorks button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  margin: auto;
+  width: 30%;
+  height: auto;
+  font-size: 3rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Butterfly Kids', cursive;
+}
+.howItWorks button:hover {
+  background-color: #FFFFFF;
+  color: #22283A;
+}
+.howItWorks img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border: 2px solid blue;
+  justify-self: center;
+  align-self: center;
+}
+.whyUseUs {
+  display: flex;
+  margin: 3%;
+}
+.whyUseUs .text {
+  border: 2px solid blue;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.whyUseUs button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #22283A;
+  margin: auto;
+  width: 30%;
+  height: auto;
+  font-size: 3rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Butterfly Kids', cursive;
+}
+.whyUseUs button:hover {
+  background-color: #FFFFFF;
+  color: #22283A;
+}
+.whyUseUs img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  border: 2px solid blue;
+  justify-self: center;
+  align-self: center;
 }
