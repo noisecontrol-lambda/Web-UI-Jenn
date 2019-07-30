@@ -319,7 +319,6 @@ footer a:hover {
   }
 }
 .topContent .text {
-  border: 2px solid blue;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -331,34 +330,10 @@ footer a:hover {
     width: 100%;
   }
 }
-.topContent button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #22283A;
-  margin: auto;
-  width: 30%;
-  height: auto;
-  font-size: 3rem;
-  border-radius: 10px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: 'Butterfly Kids', cursive;
-}
-.topContent button:hover {
-  background-color: #FFFFFF;
-  color: #22283A;
-}
-@media (max-width: 500px) {
-  .topContent button {
-    width: 100%;
-  }
-}
 .topContent img {
   width: 50%;
   height: auto;
   margin: auto;
-  border: 2px solid blue;
   justify-self: center;
   align-self: center;
 }
@@ -378,7 +353,6 @@ footer a:hover {
   }
 }
 .howItWorks .text {
-  border: 2px solid blue;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -390,29 +364,10 @@ footer a:hover {
     width: 100%;
   }
 }
-.howItWorks button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #22283A;
-  margin: auto;
-  width: 30%;
-  height: auto;
-  font-size: 3rem;
-  border-radius: 10px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: 'Butterfly Kids', cursive;
-}
-.howItWorks button:hover {
-  background-color: #FFFFFF;
-  color: #22283A;
-}
 .howItWorks img {
   width: 50%;
   height: auto;
   margin: auto;
-  border: 2px solid blue;
   justify-self: center;
   align-self: center;
 }
@@ -431,7 +386,6 @@ footer a:hover {
   }
 }
 .whyUseUs .text {
-  border: 2px solid blue;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -461,11 +415,15 @@ footer a:hover {
   background-color: #FFFFFF;
   color: #22283A;
 }
+@media (max-width: 500px) {
+  .whyUseUs button {
+    width: 100%;
+  }
+}
 .whyUseUs img {
   width: 50%;
   height: auto;
   margin: auto;
-  border: 2px solid blue;
   justify-self: center;
   align-self: center;
 }
