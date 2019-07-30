@@ -157,8 +157,8 @@ p {
 }
 header {
   width: 100%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: 1px double #ee7777;
@@ -241,7 +241,7 @@ header nav a {
   padding: 2% 0%;
 }
 header nav a:hover {
-  color: #bfcd7e;
+  color: #a8cf58;
 }
 footer {
   width: 100%;
@@ -259,8 +259,8 @@ footer .logo {
   width: 90%;
   margin: auto;
   padding: 3%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -277,7 +277,7 @@ footer .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #bfcd7e;
+  background-color: #a8cf58;
   margin: auto;
   width: 40%;
   height: auto;
@@ -289,7 +289,7 @@ footer .logo {
 }
 .cta button:hover {
   background-color: #311054;
-  color: #bfcd7e;
+  color: #a8cf58;
 }
 @media (max-width: 500px) {
   .cta button {
@@ -362,8 +362,8 @@ footer .logo {
 }
 .topContent .text {
   width: 50%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -396,8 +396,8 @@ footer .logo {
 }
 .howItWorks .text {
   width: 50%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -429,8 +429,8 @@ footer .logo {
 }
 .whyUseUs .text {
   width: 50%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -455,7 +455,7 @@ footer .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #bfcd7e;
+  background-color: #a8cf58;
   margin: auto;
   width: 40%;
   height: auto;
@@ -464,10 +464,11 @@ footer .logo {
   color: #311054;
   cursor: pointer;
   font-family: 'Flavors', cursive;
+  margin-top: 4%;
 }
 .whyUseUs button:hover {
   background-color: #311054;
-  color: #bfcd7e;
+  color: #a8cf58;
 }
 @media (max-width: 500px) {
   .whyUseUs button {
