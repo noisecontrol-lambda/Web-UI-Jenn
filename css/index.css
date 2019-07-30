@@ -134,15 +134,19 @@ html {
 }
 html,
 body {
-  font-family: 'Butterfly Kids', cursive;
+  font-family: 'Lato', sans-serif;
   color: black;
   height: auto;
 }
 h1 {
   font-size: 3.9rem;
+  font-family: 'Gochi Hand', cursive;
+  color: #311054;
 }
 h2 {
   font-size: 3.2rem;
+  font-family: 'Gochi Hand', cursive;
+  color: #311054;
 }
 h3 {
   font-size: 2.8rem;
@@ -185,6 +189,7 @@ header nav {
 }
 header nav a {
   font-size: 3rem;
+  font-family: 'Gochi Hand', cursive;
   text-decoration: none;
   color: whitesmoke;
   padding: 2% 0%;
@@ -237,19 +242,19 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #22283A;
+  background-color: #bfcd7e;
   margin: auto;
   width: 30%;
   height: auto;
-  font-size: 3rem;
+  font-size: 3.5rem;
   border-radius: 10px;
   color: #FFFFFF;
   cursor: pointer;
-  font-family: 'Butterfly Kids', cursive;
+  font-family: 'Flavors', cursive;
 }
 .cta button:hover {
   background-color: #FFFFFF;
-  color: #22283A;
+  color: #bfcd7e;
 }
 @media (max-width: 500px) {
   .cta button {
@@ -281,7 +286,7 @@ footer a:hover {
   }
 }
 .testimonial .testBoxes div {
-  border: 2px solid green;
+  border: 2px solid #ee7777;
   width: 30%;
   padding: 3%;
 }
@@ -385,29 +390,6 @@ footer a:hover {
     width: 100%;
   }
 }
-.whyUseUs button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #22283A;
-  margin: auto;
-  width: 30%;
-  height: auto;
-  font-size: 3rem;
-  border-radius: 10px;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-family: 'Butterfly Kids', cursive;
-}
-.whyUseUs button:hover {
-  background-color: #FFFFFF;
-  color: #22283A;
-}
-@media (max-width: 500px) {
-  .whyUseUs button {
-    width: 100%;
-  }
-}
 .whyUseUs img {
   width: 50%;
   height: auto;
@@ -420,6 +402,29 @@ footer a:hover {
     width: 100%;
   }
 }
+.whyUseUs button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfcd7e;
+  margin: auto;
+  width: 30%;
+  height: auto;
+  font-size: 3.5rem;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Flavors', cursive;
+}
+.whyUseUs button:hover {
+  background-color: #FFFFFF;
+  color: #bfcd7e;
+}
+@media (max-width: 500px) {
+  .whyUseUs button {
+    width: 100%;
+  }
+}
 .intro {
   width: 90%;
   margin: auto;
@@ -427,7 +432,7 @@ footer a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #ee7777;
 }
 .intro h1 {
   font-size: 7rem;
