@@ -497,7 +497,7 @@ footer .logo {
 .richard {
   display: flex;
   margin: auto;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #ee7777;
   padding: 2%;
 }
 @media (max-width: 500px) {
@@ -545,7 +545,7 @@ footer .logo {
   display: flex;
   flex-direction: row-reverse;
   margin: auto;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #ee7777;
   padding: 2%;
 }
 @media (max-width: 500px) {
