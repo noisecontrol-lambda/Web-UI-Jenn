@@ -178,8 +178,36 @@ header {
     justify-content: space-evenly;
   }
 }
-header img .logo {
-  padding: 2%;
+header .headerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  header .headerLogo {
+    flex-direction: column;
+  }
+}
+@media (max-width: 680px) {
+  header .headerLogo {
+    flex-direction: column;
+    width: 50%;
+  }
+}
+header .headerLogo h1 {
+  font-family: 'Flavors', cursive;
+  font-size: 5rem;
+  color: #ee7777;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+header .headerLogo .logo {
+  width: 20%;
+}
+@media (max-width: 680px) {
+  header .headerLogo .logo {
+    width: 60%;
+  }
 }
 header nav {
   width: 100%;
@@ -219,24 +247,13 @@ footer {
   width: 100%;
   height: auto;
   background-color: #8e2e6a;
-  padding: 3% 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   font-size: 1.5rem;
 }
-footer nav {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-}
-footer a {
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 2% 0%;
-}
-footer a:hover {
-  color: #bfcd7e;
+footer .logo {
+  width: 10%;
 }
 .cta {
   width: 90%;
@@ -266,12 +283,12 @@ footer a:hover {
   height: auto;
   font-size: 3.5rem;
   border-radius: 10px;
-  color: #FFFFFF;
+  color: #311054;
   cursor: pointer;
   font-family: 'Flavors', cursive;
 }
 .cta button:hover {
-  background-color: #FFFFFF;
+  background-color: #311054;
   color: #bfcd7e;
 }
 @media (max-width: 500px) {
@@ -444,12 +461,12 @@ footer a:hover {
   height: auto;
   font-size: 3.5rem;
   border-radius: 10px;
-  color: #FFFFFF;
+  color: #311054;
   cursor: pointer;
   font-family: 'Flavors', cursive;
 }
 .whyUseUs button:hover {
-  background-color: #FFFFFF;
+  background-color: #311054;
   color: #bfcd7e;
 }
 @media (max-width: 500px) {
