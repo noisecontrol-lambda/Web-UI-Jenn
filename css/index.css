@@ -203,6 +203,7 @@ header nav a {
 }
 header nav a:hover {
   color: #072375;
+  font-weight: bold;
 }
 footer {
   width: 100%;
@@ -226,6 +227,7 @@ footer a {
 }
 footer a:hover {
   color: #072375;
+  font-weight: bold;
 }
 .cta {
   width: 90%;
