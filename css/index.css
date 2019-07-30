@@ -538,6 +538,7 @@ footer .logo {
   margin: auto;
   justify-self: center;
   align-self: center;
+  border-radius: 10px;
 }
 .greg,
 .christoper,
@@ -586,4 +587,5 @@ footer .logo {
   margin: auto;
   justify-self: center;
   align-self: center;
+  border-radius: 10px;
 }
