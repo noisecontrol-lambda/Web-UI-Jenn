@@ -3,6 +3,17 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+
+  button{
+    .custom-button();
+    justify-self: flex-end;
+    align-self: center;
+    margin: 2%;
+
+      @media @phone{
+      width: 100%;
+      }
+  }
 }
 
 .topContent{
@@ -100,14 +111,11 @@
       width: 100%;
     }
   }
-
-  
-  button{
-    .custom-button();
-    margin-top: 4%;
-
-    @media @phone{
-      width: 100%;
-    }
-  }
 }
+// .mainContent button{
+//   .custom-button();
+
+//   @media @phone{
+//   width: 100%;
+//   }
+// }

@@ -351,6 +351,32 @@ footer .logo {
   display: flex;
   flex-direction: column;
 }
+.mainContent button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8cf58;
+  margin: auto;
+  width: 40%;
+  height: auto;
+  font-size: 3.5rem;
+  border-radius: 10px;
+  color: #311054;
+  cursor: pointer;
+  font-family: 'Flavors', cursive;
+  justify-self: flex-end;
+  align-self: center;
+  margin: 2%;
+}
+.mainContent button:hover {
+  background-color: #311054;
+  color: #a8cf58;
+}
+@media (max-width: 500px) {
+  .mainContent button {
+    width: 100%;
+  }
+}
 .topContent {
   display: flex;
   margin: 3%;
@@ -448,30 +474,6 @@ footer .logo {
 }
 @media (max-width: 500px) {
   .whyUseUs img {
-    width: 100%;
-  }
-}
-.whyUseUs button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #a8cf58;
-  margin: auto;
-  width: 40%;
-  height: auto;
-  font-size: 3.5rem;
-  border-radius: 10px;
-  color: #311054;
-  cursor: pointer;
-  font-family: 'Flavors', cursive;
-  margin-top: 4%;
-}
-.whyUseUs button:hover {
-  background-color: #311054;
-  color: #a8cf58;
-}
-@media (max-width: 500px) {
-  .whyUseUs button {
     width: 100%;
   }
 }
