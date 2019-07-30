@@ -161,10 +161,22 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px double #311054;
+  border: 1px double #ee7777;
   background-color: #8e2e6a;
   margin: auto;
   padding: 3%;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 680px) {
+  header {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
 }
 header img .logo {
   padding: 2%;
@@ -179,7 +191,13 @@ header nav {
 @media (max-width: 500px) {
   header nav {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 680px) {
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 @media (max-width: 800px) {
@@ -244,7 +262,7 @@ footer a:hover {
   align-items: center;
   background-color: #bfcd7e;
   margin: auto;
-  width: 30%;
+  width: 40%;
   height: auto;
   font-size: 3.5rem;
   border-radius: 10px;
@@ -259,7 +277,7 @@ footer a:hover {
 @media (max-width: 500px) {
   .cta button {
     width: 80%;
-    padding: 5%;
+    padding: 3%;
   }
 }
 .testimonial {
@@ -285,14 +303,28 @@ footer a:hover {
     align-items: center;
   }
 }
+@media (max-width: 680px) {
+  .testimonial .testBoxes {
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+  }
+}
 .testimonial .testBoxes div {
   border: 2px solid #ee7777;
+  border-radius: 10px;
   width: 30%;
   padding: 3%;
 }
 @media (max-width: 500px) {
   .testimonial .testBoxes div {
     width: 100%;
+    margin: 2%;
+  }
+}
+@media (max-width: 680px) {
+  .testimonial .testBoxes div {
+    width: 80%;
     margin: 2%;
   }
 }
@@ -408,7 +440,7 @@ footer a:hover {
   align-items: center;
   background-color: #bfcd7e;
   margin: auto;
-  width: 30%;
+  width: 40%;
   height: auto;
   font-size: 3.5rem;
   border-radius: 10px;

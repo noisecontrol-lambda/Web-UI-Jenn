@@ -23,7 +23,7 @@
 
     @media @phone{
       width: 80%;
-      padding: 5%;
+      padding: 3%;
     }
   }
   
@@ -52,13 +52,25 @@
       align-items: center;
     }
 
+    @media @phablet{
+      flex-direction: column;
+      justify-items: space-between;
+      align-items: center;
+    }
+
     div{
       border: 2px solid @accent-color;
+      border-radius: 10px;
       width: 30%;
       padding: 3%;
 
       @media @phone{
         width: 100%;
+        margin: 2%;
+      }
+
+      @media @phablet{
+        width: 80%;
         margin: 2%;
       }
     }
