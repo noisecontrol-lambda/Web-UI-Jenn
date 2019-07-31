@@ -150,6 +150,8 @@ h2 {
 }
 h3 {
   font-size: 2.8rem;
+  font-family: 'Gochi Hand', cursive;
+  color: #311054;
 }
 p {
   font-size: 1.6rem;
@@ -524,7 +526,11 @@ footer .logo {
 .avni .text h2,
 .richard .text h2 {
   font-size: 5rem;
-  padding: 2%;
+}
+.michael .text h3,
+.avni .text h3,
+.richard .text h3 {
+  padding-bottom: 3%;
 }
 @media (max-width: 500px) {
   .michael .text,
@@ -573,7 +579,11 @@ footer .logo {
 .christoper .text h2,
 .jenn .text h2 {
   font-size: 5rem;
-  padding: 2%;
+}
+.greg .text h3,
+.christoper .text h3,
+.jenn .text h3 {
+  padding-bottom: 3%;
 }
 @media (max-width: 500px) {
   .greg .text,
