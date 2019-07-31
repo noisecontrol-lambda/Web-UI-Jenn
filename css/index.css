@@ -547,12 +547,26 @@ footer .logo {
 .michael img,
 .avni img,
 .richard img {
-  width: 48%;
+  width: 40%;
   height: auto;
   margin: auto;
   justify-self: center;
   align-self: center;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .michael img,
+  .avni img,
+  .richard img {
+    width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  .michael img,
+  .avni img,
+  .richard img {
+    width: 50%;
+  }
 }
 .greg,
 .christoper,
@@ -600,10 +614,24 @@ footer .logo {
 .greg img,
 .christoper img,
 .jenn img {
-  width: 48%;
+  width: 40%;
   height: auto;
   margin: auto;
   justify-self: center;
   align-self: center;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .greg img,
+  .christoper img,
+  .jenn img {
+    width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  .greg img,
+  .christoper img,
+  .jenn img {
+    width: 50%;
+  }
 }
