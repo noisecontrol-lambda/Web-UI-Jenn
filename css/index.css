@@ -406,7 +406,7 @@ footer .logo {
   }
 }
 .topContent img {
-  width: 50%;
+  width: 30%;
   height: auto;
   margin: auto;
   justify-self: center;
@@ -415,6 +415,11 @@ footer .logo {
 @media (max-width: 500px) {
   .topContent img {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .topContent img {
+    width: 40%;
   }
 }
 .howItWorks {
@@ -440,7 +445,7 @@ footer .logo {
   }
 }
 .howItWorks img {
-  width: 50%;
+  width: 30%;
   height: auto;
   margin: auto;
   justify-self: center;
@@ -449,6 +454,11 @@ footer .logo {
 @media (max-width: 500px) {
   .howItWorks img {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .howItWorks img {
+    width: 40%;
   }
 }
 .whyUseUs {
@@ -473,7 +483,7 @@ footer .logo {
   }
 }
 .whyUseUs img {
-  width: 50%;
+  width: 30%;
   height: auto;
   margin: auto;
   justify-self: center;
@@ -482,6 +492,11 @@ footer .logo {
 @media (max-width: 500px) {
   .whyUseUs img {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .whyUseUs img {
+    width: 40%;
   }
 }
 .intro {
@@ -547,12 +562,26 @@ footer .logo {
 .michael img,
 .avni img,
 .richard img {
-  width: 48%;
+  width: 40%;
   height: auto;
   margin: auto;
   justify-self: center;
   align-self: center;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .michael img,
+  .avni img,
+  .richard img {
+    width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  .michael img,
+  .avni img,
+  .richard img {
+    width: 50%;
+  }
 }
 .greg,
 .christoper,
@@ -600,10 +629,24 @@ footer .logo {
 .greg img,
 .christoper img,
 .jenn img {
-  width: 48%;
+  width: 40%;
   height: auto;
   margin: auto;
   justify-self: center;
   align-self: center;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .greg img,
+  .christoper img,
+  .jenn img {
+    width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  .greg img,
+  .christoper img,
+  .jenn img {
+    width: 50%;
+  }
 }
