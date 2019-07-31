@@ -257,6 +257,11 @@ footer {
 footer .logo {
   width: 10%;
 }
+@media (max-width: 500px) {
+  footer .logo {
+    width: 20%;
+  }
+}
 .cta {
   width: 90%;
   margin: auto;
