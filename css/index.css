@@ -417,6 +417,11 @@ footer .logo {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .topContent img {
+    width: 40%;
+  }
+}
 .howItWorks {
   display: flex;
   flex-direction: row-reverse;
@@ -451,6 +456,11 @@ footer .logo {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .howItWorks img {
+    width: 40%;
+  }
+}
 .whyUseUs {
   display: flex;
   margin: 3%;
@@ -482,6 +492,11 @@ footer .logo {
 @media (max-width: 500px) {
   .whyUseUs img {
     width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .whyUseUs img {
+    width: 40%;
   }
 }
 .intro {
