@@ -1,0 +1,81 @@
+.cta {
+  width: 90%;
+  margin: auto;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  .center();
+  text-align: center;
+
+  h1{
+    font-size: 7rem;
+    margin-bottom: 3%;
+  }
+
+  h2{
+    font-size: 4rem;
+    margin-bottom: 5%;
+  }
+
+  button{
+    .custom-button();
+
+    @media @phone{
+      width: 80%;
+      padding: 3%;
+    }
+  }
+  
+}
+
+.testimonial{
+  width: 90%;
+  margin: auto;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+
+  h2{
+    font-size: 4rem;
+    margin-bottom: 3%;
+  }
+
+  .testBoxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    @media @phone{
+      flex-direction: column;
+      justify-items: space-between;
+      align-items: center;
+    }
+
+    @media @phablet{
+      flex-direction: column;
+      justify-items: space-between;
+      align-items: center;
+    }
+
+    div{
+      border: 2px solid @accent-color;
+      border-radius: 10px;
+      width: 30%;
+      padding: 3%;
+
+      @media @phone{
+        width: 100%;
+        margin: 2%;
+      }
+
+      @media @phablet{
+        width: 80%;
+        margin: 2%;
+      }
+    }
+
+  }
+  
+ 
+
+}
